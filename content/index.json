@@ -10,7 +10,8 @@
     {
       "k": "col-right",
       "c": [
-        "col-right"
+        "col-right",
+        "1529249486096"
       ]
     }
   ],
@@ -33,7 +34,7 @@
     },
     {
       "k": "col-right-h",
-      "t": "Contributors\n"
+      "t": "About"
     },
     {
       "k": "col-right-h1528922606137",
@@ -48,8 +49,12 @@
       "t": "Projects"
     },
     {
+      "k": "col-right-h1529249486096",
+      "t": "Contributors"
+    },
+    {
       "k": "col-right-p",
-      "t": "- Haralampi Staykov - [About](https://haralampi.com) - [GitHub](https://github.com/sofmon/) - [LinkedIn](https://linkedin.com/in/haralampi/)"
+      "t": "Sofmon is an attempt to build set of tools that can be used by your own judgment and nobody else's.\n"
     },
     {
       "k": "col-right-p1528922606137",
@@ -64,12 +69,12 @@
       "t": "- [Wedit](https://wedit.it) - WYSIWYG static website edit tool\n"
     },
     {
-      "k": "first-header",
-      "t": "![sofmon](/sofmon.svg)"
+      "k": "col-right-p1529249486096",
+      "t": "- Haralampi Staykov - [About](https://haralampi.com) - [GitHub](https://github.com/sofmon/) - [LinkedIn](https://linkedin.com/in/haralampi/)"
     },
     {
-      "k": "second-header",
-      "t": "tools for the future\n"
+      "k": "first-header",
+      "t": "![sofmon](/sofmon.svg)"
     }
   ],
   "i": []
