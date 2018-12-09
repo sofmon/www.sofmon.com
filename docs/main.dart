@@ -10,6 +10,7 @@ const _LINE_COLORS = "#666666";
 void main() {
   _refresh();
   html.window.onResize.listen((e)=>_refresh());
+  html.window.onLoad.listen((e)=>_refresh());
 }
 
 void _refresh() {
