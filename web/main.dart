@@ -7,13 +7,27 @@ List<html.Element> _decorations = new List<html.Element>();
 
 const _LINE_COLORS = "#666666";
 
+html.Element _background = new html.Element.div()
+  ..style.position = "absolute"
+  ..style.width = "100%"
+  ..style.height = "100%"
+  ..style.minHeight = "100vh"
+  ..style.top = "0px"
+  ..style.left = "0px"
+  ..style.overflow = "hidden"
+  ..style.zIndex = "-1";
+
 void main() {
+  html.document.body.insertBefore(_background, html.document.body.firstChild);
+
   _refresh();
   html.window.onResize.listen((e)=>_refresh());
   html.window.onLoad.listen((e)=>_refresh());
+  html.window.onMessage.listen((e)=>_refresh());
 }
 
 void _refresh() {
+  _background.style.height = html.document.body.offsetHeight.toString() + "px";
   _decorations.forEach((e) => e.remove());
   _decorations.clear();
   html.querySelectorAll(".content").forEach((e) => processContent(e));
@@ -73,5 +87,6 @@ void processContent(html.Element e) {
       "fill": "none"
     });*/
   _decorations.add(s);
-  html.document.body.insertBefore(s, html.document.body.firstChild);
+
+  _background.children.add(s);
 }

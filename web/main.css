@@ -1,54 +1,60 @@
 html body {
-    background-color: #000000;
-    color: #AAAAAA;
-    font-family: "Courier New", Courier, monospace;
-    overflow-x: hidden;
-    font-weight: 100;
-    font-size: 18px;
-  }
+  background-color: #000000;
+  color: #AAAAAA;
+  font-family: "Roboto Mono", Courier, monospace;
+  overflow-x: hidden;
+  font-weight: 100;
+  font-size: 16px;
+}
 
-  a {
-    color: #FF6666;
-  }
+a {
+  color: #FF6666;
+}
 
-  h1 {
-    color: #666666;
-    font-weight: 100;
-    font-size: 30px;
-  }
+h1 {
+  color: #666666;
+  font-weight: 100;
+  font-size: 30px;
+}
 
-  h2 {
-    color: #FFFFFF;
-    font-weight: 100;
-  }
+h2 {
+  color: #FFFFFF;
+  font-weight: 100;
+}
 
-  header {
-    text-align: center;
-  }
+header {
+  text-align: center;
+}
 
-  .container {
-    margin: auto;
-    max-width: 1500px;
-  }
+.container {
+  margin: auto;
+  max-width: 1500px;
+}
 
-  .main {
-    float: left;
-    width: 66.66666%;
-  }
+.container:after {
+  content:"";
+  display:table;
+  clear:both
+}
 
-  .side {
-    float: left;
-    width: 33.33333%;
-  }
+.main {
+  float: left;
+  width: 66.66666%;
+}
 
-  @media only screen and (max-width: 1000px) {
-    .main, .side {
-      width: 100%;
-    }
-  }
+.side {
+  float: left;
+  width: 33.33333%;
+}
 
-  .content {
-    margin: 30px;
-    padding: 10px;
-    background-color: #00000066
+@media only screen and (max-width: 1000px) {
+  .main, .side {
+    width: 100%;
   }
+}
+
+.content {
+  margin: 10px;
+  padding: 10px;
+  background-color: #00000066
+}
