@@ -108,6 +108,9 @@ section {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+  .bg-tech, .bg-purpose, .bg-bizdevops, .bg-about, .bg-contact, .bg-logos {
+    display: none;
+  }
 }
 
 .bg-tech {
