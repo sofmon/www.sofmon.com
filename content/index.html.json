@@ -1,22 +1,38 @@
 {
   "t": "",
-  "r": [
-    {
-      "k": "main",
-      "c": [
-        "main",
-        "1545315205421"
-      ]
-    }
-  ],
+  "r": [],
   "e": [
     {
-      "k": "content",
-      "t": "## wedit\n\n([wedit.io](https://wedit.io)) - ([GitHub](https://github.com/sofmon/wedit))\n\nWedit uses static HTML website as template and allows content to be changed through WYSIWYG editing using the web browser.\n\nAll changes are immediate and align with the intended website design.\n"
+      "k": "about",
+      "t": "## ABOUT US\n\nSofmon was born from the realisation that nowadays software applications and projects are mostly busy with their own source code and internal processes instead of solving business challenges.\n\nToo many projects setup technology as the key to success, instead of focusing on the value their company can bring to the world.\n\nAt Sofmon we strive to use technology as a mean to achieve our customers goals and nothing more. We liberate our customers from the grip of technology and never ending upgrade cycles, so they can focus on their purpose.\n\nGive us something to believe in, and we will help you build it.\n\n"
     },
     {
-      "k": "content1545315205421",
-      "t": "## arke.app (work in progress)\n\n(arke.app) - (GitHub)\n\nDecentralized, server-less, point to point encrypted messenger app: No servers; No sniffing; No control; No influence.\n"
+      "k": "behavior-testing",
+      "t": "## AUTOMATED BEHAVIOUR TESTING\nTesting your code is important. Never the less it tests the code, not the business process it is meant to represent.\n\nSofmon can help you start testing the behaviour of your solution through convention and automation.\n\nSuch automated behaviour testing is part of our CI/CD pipelines from the start. It is the foundation of the BizDevOps culture that we nurture and one of our most prised products.\n\nAutomated behaviour testing is the key for your continues deployment to production, multiple times, every day, from day one.\n\n"
+    },
+    {
+      "k": "biz-dev-ops",
+      "t": "## BUSINESS, DEVELOPMENT \u0026 OPERATIONS\n\nTrue BizDevOps culture is hard to nurture. This is the reason our team works best with startups in the beginning of their digital journey or companies ready for their digital transformation.\n\nWorking with your development teams, we can illustrate how the most important knowledge they need is not the technical skills, but the reason why those skills are needed.\n\nWe start by building our customers CI/CD pipelines and procedures based on conventions which enables the team to understand, build, test, deploy and maintain the software they create.\n\nWe focus on cloud deployments, bringing value from day one.\n\n"
+    },
+    {
+      "k": "contact",
+      "t": "## GET STARTED TODAY\n\nOur team is located in The Netherlands and we are just a video call away.\n\nSay hello at [hello@sofmon.com](mailto:hello@sofmon.com).\n\n"
+    },
+    {
+      "k": "experience",
+      "t": "## EXPERIENCE \u0026 INNOVATION\n\nWe draw our confidence on our experience with some of the leading companies in the world.\n\nEven though we think we have \"cracked it\" today, we hope to be wrong in 5 years, as the tech world continues to evolve.\n\nOur innovative thinking will keep us, and our customers, prepared for the future.\n\n"
+    },
+    {
+      "k": "home",
+      "t": "# SOFMON\nStudio for creative engineering\n"
+    },
+    {
+      "k": "micro-services",
+      "t": "## MICRO-SERVICES ARCHITECTURE\n\nModern solutions are complex, but they don't need to be complicated.\n\nSofmon's experience with micro-services architecture will help you design a solution that is simple to understand and easy to deploy.\n\nThe micro-services architecture is a direct result of the BizDevOps culture, where every business process is described, designed and implemented as separate micro-service.\n\nThis modern architecture allows a small team to continue work on new features, altering existing services only if the corresponding business processes are changed.\n\n"
+    },
+    {
+      "k": "our-way",
+      "t": "## About us\n\nSofmon was borm from the \n"
     }
   ],
   "i": []

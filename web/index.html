@@ -5,29 +5,75 @@
   <title>sofmon</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script defer src="/main.dart.js"></script>
-  <link rel="icon" href="/icon.png">
-  <link rel="stylesheet" href="/main.css">
-  <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <div style="height:400px;background: center no-repeat url(/sofmon.svg)"></div>
-    <h1>⫓ ⦰ ⧧ ⫙ ⦵ ⋂</h1>
-  </header>
-  <div class="container">
-    <div class="main">
-      <div class="content" wedit-repeat="main">
-        <div wedit="content">-- content --</div>
-      </div>
+  <section id="home">
+    <div class="center" style="text-align: center;" data-wedit="home">
+      ...
     </div>
-    <div class="side">
-      <div class="content" wedit-repeat="!side">
-          <div wedit="!content">-- content --</div>
-      </div>
+    <div class="arrow arrow-first"></div>
+    <div class="arrow arrow-second"></div>
+  </section>
+  <section id="about">
+    <div class="bg-about rellax" data-rellax-speed="5"></div>
+    <div class="left" data-wedit="about">
+      ...
     </div>
-  </div>
+  </section>
+  <section id="biz-dev-ops">
+    <div class="bg-bizdevops rellax" data-rellax-speed="3"></div>
+    <div class="right" data-wedit="biz-dev-ops">
+      ...
+    </div>
+  </section>
+  <section id="micro-services">
+    <div class="bg-tech rellax" data-rellax-speed="5"></div>
+    <div class="left" data-wedit="micro-services">
+      ...
+    </div>
+  </section>
+  <section id="behavior-testing">
+    <div class="center" data-wedit="behavior-testing">
+      ...
+    </div>
+  </section>
+  <section id="experience">
+    <div class="bg-logos rellax" data-rellax-speed="10"></div>
+    <div class="right" data-wedit="experience">
+      ...
+    </div>
+  </section>
+  <section id="contact">
+    <div class="bg-contact rellax" data-rellax-speed="10"></div>
+    <div class="left" data-wedit="contact">
+      ...
+    </div>
+  </section>
+
+  <!-- <h2>GET STARTED TODAY</h2>
+  <p>Our team is located in The Netherlands</p>
+  <p>We are just a video call away</p>
+  <p><a href="mailto:hello@sofmon.com">hello@sofmon.com</a></p> -->
+  <nav>
+    <ul>
+      <!-- <li><a href="#home">SOFMON</a></li> -->
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#biz-dev-ops">BIZ-DEV-OPS</a></li>
+      <li><a href="#micro-services">MICRO-SERVICES</a></li>
+      <li><a href="#behavior-testing">BEHAVIOR TESTING</a></li>
+      <li><a href="#experience">EXPERIENCE</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+  <script src="rellax/rellax.min.js"></script>
+  <script>
+    // Accepts any class name
+    var rellax = new Rellax('.rellax', { center: true });
+  </script>
 </body>
 
 </html>

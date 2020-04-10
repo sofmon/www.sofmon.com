@@ -1,60 +1,224 @@
-html body {
-  background-color: #000000;
-  color: #AAAAAA;
-  font-family: "Roboto Mono", Courier, monospace;
-  overflow-x: hidden;
-  font-weight: 100;
-  font-size: 16px;
+html {
+  scroll-behavior: smooth;
 }
 
-a {
-  color: #FF6666;
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #414141;
+  background: #ffffff;
 }
 
 h1 {
-  color: #666666;
-  font-weight: 100;
-  font-size: 30px;
+  color: #121212;
+  padding: 0;
+  margin: 0;
+  font-size: 66px;
 }
 
-h2 {
-  color: #FFFFFF;
-  font-weight: 100;
+h2, h3, h4 {
+  color: #121212;
+  padding: 0;
+  margin-bottom: 10px;
 }
 
-header {
-  text-align: center;
+p {
+  padding: 0;
+  margin-bottom: 10px;
 }
 
-.container {
-  margin: auto;
-  max-width: 1500px;
+a {
+  color: #000000;
+  text-decoration: none;
 }
 
-.container:after {
-  content:"";
-  display:table;
-  clear:both
+nav {
+  position: fixed;
+  top: 0px;
+  white-space: nowrap;
+  width: 100%;
+  background: #FFFFFFAA;
 }
 
-.main {
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding-right: 20px;
+  float: right;
+}
+
+nav ul li {
   float: left;
-  width: 66.66666%;
+  padding: 10px;
 }
 
-.side {
-  float: left;
-  width: 33.33333%;
+section {
+  /* fallback for older browsers */
+  height: 500px;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
 }
 
-@media only screen and (max-width: 1000px) {
-  .main, .side {
+.center {
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 40vw;
+}
+
+.right {
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-10%, -50%);
+  transform: translate(-10%, -50%);
+  width: 40vw;
+}
+
+.left {
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-90%, -50%);
+  transform: translate(-90%, -50%);
+  width: 40vw;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  section {
+    height: auto;
+    overflow: visible;
+    position: relative;
+  }
+  .center, .right, .left {
+    text-align: left;
+    position: relative;
     width: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
   }
 }
 
-.content {
-  margin: 10px;
-  padding: 10px;
-  background-color: #00000066
+.bg-tech {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("tech.svg") no-repeat fixed center bottom;
+  background-size: cover;
+}
+
+.bg-purpose {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("purpose.svg") no-repeat fixed center bottom;
+  background-size: cover;
+}
+
+.bg-bizdevops {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("bizdevops.svg") no-repeat fixed center bottom;
+  background-size: cover;
+}
+
+.bg-about {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("about.svg") no-repeat fixed center bottom;
+  background-size: cover;
+}
+
+.bg-contact {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("contact.svg") no-repeat fixed center bottom;
+  background-size: cover;
+}
+
+.bg-logos {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("logos.svg") no-repeat fixed center bottom;
+  background-size: cover;
+}
+
+/* scroll arrow */
+
+.arrow {
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform-origin: 50% 90%;
+  transform: translate3d(-50%, -90%, 0);
+}
+
+.arrow-first {
+  animation: arrow-movement 2s ease-in-out infinite;
+}
+
+.arrow-second {
+  animation: arrow-movement 2s 1s ease-in-out infinite;
+}
+
+.arrow:before, .arrow:after {
+  background: #414141;
+  content: '';
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+}
+
+.arrow:before {
+  transform: rotate(45deg) translateX(-23%);
+  transform-origin: top left;
+}
+
+.arrow:after {
+  transform: rotate(-45deg) translateX(23%);
+  transform-origin: top right;
+}
+
+@keyframes arrow-movement {
+  0% {
+    opacity: 0;
+    top: 88%;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
