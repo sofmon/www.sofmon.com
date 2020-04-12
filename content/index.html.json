@@ -8,11 +8,11 @@
     },
     {
       "k": "behavior-testing",
-      "t": "## AUTOMATED BEHAVIOUR TESTING\nTesting your code is important. Never the less it tests the code, not the business process it is meant to represent.\n\nSofmon can help you start testing the behaviour of your solution through convention and automation.\n\nSuch automated behaviour testing is part of our CI/CD pipelines from the start. It is the foundation of the BizDevOps culture that we nurture and one of our most prised products.\n\nAutomated behaviour testing is the key for your continues deployment to production, multiple times, every day, from day one.\n\n"
+      "t": "## AUTOMATED BEHAVIOUR TESTING\nTesting your code is important. Never the less it tests the code, not the business process it is meant to represent.\n\nSofmon can help you start testing the behaviour of your solution through convention and automation.\n\nSuch automated behaviour testing is part of our CI/CD/CT pipelines from the start. It is the foundation of the BizDevOps culture that we nurture and one of our most prised products.\n\nAutomated behaviour testing is the key for your continues deployment to production, multiple times, every day, from day one.\n\n"
     },
     {
       "k": "biz-dev-ops",
-      "t": "## BUSINESS, DEVELOPMENT \u0026 OPERATIONS\n\nTrue BizDevOps culture is hard to nurture. This is the reason our team works best with startups in the beginning of their digital journey or companies ready for their digital transformation.\n\nWorking with your development teams, we can illustrate how the most important knowledge they need is not the technical skills, but the reason why those skills are needed.\n\nWe start by building our customers CI/CD pipelines and procedures based on conventions which enables the team to understand, build, test, deploy and maintain the software they create.\n\nWe focus on cloud deployments, bringing value from day one.\n\n"
+      "t": "## BUSINESS, DEVELOPMENT \u0026 OPERATIONS\n\nTrue BizDevOps culture is hard to nurture. This is the reason our team works best with startups in the beginning of their digital journey or companies ready for their digital transformation.\n\nWorking with your development teams, we can illustrate how the most important knowledge they need is not the technical skills, but the reason why those skills are needed.\n\nWe start by building our customers CI/CD/CT (Continues Integration,  Continues Deployment, Continues Testing) pipelines and procedures based on conventions which enables the team to understand, build, test, deploy and maintain the software they create.\n\nWe focus on cloud deployments, bringing value from day one.\n\n"
     },
     {
       "k": "contact",
@@ -33,7 +33,18 @@
     {
       "k": "our-way",
       "t": "## About us\n\nSofmon was borm from the \n"
+    },
+    {
+      "k": "product",
+      "t": "## OUR PRODUCT\n\nOur team brings what your business should consider a commodity, so you can start right away with those killer features.\n"
     }
   ],
-  "i": []
+  "i": [
+    {
+      "k": "",
+      "t": "",
+      "w": null,
+      "x": null
+    }
+  ]
 }
