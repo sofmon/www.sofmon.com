@@ -4,11 +4,6 @@
     xmlns="http://www.w3.org/2000/svg" 
     xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" 
     xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <style>
-        #App:hover {
-            fill:black;
-        }
-    </style>
     <g transform="matrix(1,0,0,1,0,-114)">
         <g id="Development" transform="matrix(3,0,0,8.38099,-1059,-1561.44)">
             <path d="M610.596,232.411L486.568,210.213L362.541,232.411L486.568,254.609L610.596,232.411Z" style="fill:white;"/>
