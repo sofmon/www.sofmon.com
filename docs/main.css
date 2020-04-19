@@ -78,6 +78,7 @@ section {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 40vw;
+  background: #FFFFFFAA;
 }
 
 .right {
@@ -88,6 +89,7 @@ section {
   -webkit-transform: translate(-10%, -50%);
   transform: translate(-10%, -50%);
   width: 40vw;
+  background: #FFFFFFAA;
 }
 
 .left {
@@ -98,6 +100,47 @@ section {
   -webkit-transform: translate(-90%, -50%);
   transform: translate(-90%, -50%);
   width: 40vw;
+  background: #FFFFFFAA;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+
+.bg-micro1 {
+  background-image: url("micro1.svg");
+}
+
+.bg-micro2 {
+  background-image: url("micro2.svg");
+}
+
+.bg-test {
+  background-image: url("test.svg");
+}
+
+.bg-bizdevops {
+  background-image: url("bizdevops.svg");
+}
+
+.bg-about {
+  background-image: url("about.svg");
+}
+
+.bg-contact {
+  background-image: url("contact.svg");
+}
+
+.bg-logos {
+  background-image: url("logos.svg") no-repeat fixed center bottom;
 }
 
 @media only screen and (max-width: 800px) {
@@ -119,93 +162,13 @@ section {
     -webkit-transform: translate(0, 0) !important;
     transform: translate(0, 0) !important;
   }
-  .bg-micro1, .bg-micro2, .bg-purpose, .bg-bizdevops, .bg-about, .bg-contact, .bg-logos, .arrow {
+  .arrow, .bg {
     display: none;
   }
   .rellax {
     -webkit-transform: translate(0, 0) !important;
     transform: translate(0, 0) !important;
   }
-}
-
-.bg-micro1 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: url("micro1.svg") no-repeat fixed center bottom;
-  background-size: cover;
-}
-
-.bg-micro2 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: url("micro2.svg") no-repeat fixed center bottom;
-  background-size: cover;
-}
-
-.bg-test {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: url("test.svg") no-repeat fixed center bottom;
-  background-size: cover;
-}
-
-.bg-purpose {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: url("purpose.svg") no-repeat fixed center bottom;
-  background-size: cover;
-}
-
-.bg-bizdevops {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: url("bizdevops.svg") no-repeat fixed center bottom;
-  background-size: cover;
-}
-
-.bg-about {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: url("about.svg") no-repeat fixed center bottom;
-  background-size: cover;
-}
-
-.bg-contact {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: url("contact.svg") no-repeat fixed center bottom;
-  background-size: cover;
-}
-
-.bg-logos {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: url("logos.svg") no-repeat fixed center bottom;
-  background-size: cover;
 }
 
 /* scroll arrow */
