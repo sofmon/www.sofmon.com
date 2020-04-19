@@ -140,7 +140,7 @@ section {
 }
 
 .bg-logos {
-  background-image: url("logos.svg") no-repeat fixed center bottom;
+  background-image: url("logos.svg");
 }
 
 @media only screen and (max-width: 800px) {
