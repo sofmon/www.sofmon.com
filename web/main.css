@@ -147,27 +147,48 @@ section {
   nav {
     display: none;
   }
-  section {
-    height: auto;
-    overflow: visible;
-    position: relative;
-  }
   .center, .right, .left, .product-image {
     text-align: left;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    background: #FFFFFFBB;
+    padding: 10px;
+  }
+  .bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
-    left: 0;
-    top: 0;
-    -webkit-transform: translate(0, 0) !important;
-    transform: translate(0, 0) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center middle;
+    background-attachment: fixed;
   }
-  .arrow, .bg {
-    display: none;
+  .bg-micro1 {
+    background-image: url("m-micro1.svg");
   }
-  .rellax {
-    -webkit-transform: translate(0, 0) !important;
-    transform: translate(0, 0) !important;
+  .bg-micro2 {
+    background-image: url("m-micro2.svg");
+  }
+  .bg-test {
+    background-image: url("m-test.svg");
+  }
+  .bg-bizdevops {
+    background-image: url("m-bizdevops.svg");
+  }
+  .bg-about {
+    background-image: url("m-about.svg");
+  }
+  .bg-contact {
+    background-image: url("m-contact.svg");
+  }
+  .bg-logos {
+    background-image: url("m-logos.svg");
   }
 }
 
