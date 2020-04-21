@@ -147,6 +147,15 @@ section {
   nav {
     display: none;
   }
+  .product-image {
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 100vw;
+    height: 50vh;
+  }
   .center, .right, .left {
     text-align: left;
     position: absolute;
