@@ -147,7 +147,7 @@ section {
   nav {
     display: none;
   }
-  .center, .right, .left, .product-image {
+  .center, .right, .left {
     text-align: left;
     position: absolute;
     left: 50%;
