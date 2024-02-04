@@ -1,113 +1,147 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE html>
+<html>
+
+<head>
   <title>sofmon</title>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link rel="icon" href="icon.png"/>
-  <link rel="stylesheet" href="main.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&amp;display=swap" rel="stylesheet"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="icon.png" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <section id="home">
-    <div class="center" style="text-align: center;"><h1>SOFMON</h1>
+    <div class="center" style="text-align: center;">
+      <h1><img src="assets/sofmon.svg" width="300px" alt="SOFMON"></h1>
 
-Studio for creative engineering
-</div>
+      Studio for creative engineering
+    </div>
     <div class="arrow arrow-first"></div>
     <div class="arrow arrow-second"></div>
   </section>
   <section id="about">
-    <div class="bg bg-about rellax" data-rellax-speed="5"></div>
-    <div class="left"><h2>ABOUT US</h2>
+    <div class="bg rellax" data-rellax-speed="1" style="background-image: url('assets/about1.svg');"></div>
+    <div class="bg rellax" data-rellax-speed="5" style="background-image: url('assets/about2.svg');"></div>
+    <div class="bg rellax" data-rellax-speed="15" style="background-image: url('assets/about3.svg');"></div>
+    <div class="left">
+      <h2>ABOUT</h2>
 
-<p>Sofmon was born from the realisation that nowadays software applications and projects are mostly busy with their own source code and internal processes instead of solving business challenges.</p>
+      <p>Sofmon was created on the belief that teams have immense potential to drive business success when they align
+        their focus beyond mere technical tasks.</p>
 
-<p>Too many projects setup technology as the key to success, instead of focusing on the value their company can bring to the world.</p>
+      <p>Recognizing the tendency in the industry to narrowly prioritize technology, we see an opportunity to redefine
+        success by turning routine tasks into commodities.</p>
 
-<p>At Sofmon we strive to use technology as a mean to achieve our customers goals and nothing more. We liberate our customers from the grip of technology and never ending upgrade cycles, so they can focus on their purpose.</p>
-
-<p>Give us something to believe in, and we will help you build it.</p>
-</div>
+      <p>At Sofmon, technology is leveraged as a strategic tool to fulfil our clients' ambitions, not as an end in
+        itself. This pragmatic approach enables us to unlock new possibilities for our clients, freeing them to pursue
+        their core
+        mission with renewed focus and clarity.
+      </p>
+    </div>
   </section>
   <section id="product">
     <div class="center">
-      <div><h2>OUR PRODUCT</h2>
-
-Our team brings what your business should consider a commodity, so you can start right away with those killer features.
-</div>
+      <div>
+        <h2>PRODUCT</h2>
+        Our team delivers what should be seen as a commodity to your business, allowing you to direct your attention
+        swiftly to <span style="color:#396695; text-decoration: underline;">your core activities</span>.
+      </div>
       <div class="product-image">
-        <object class="rellax" data-rellax-speed="1" type="image/svg+xml" data="product.svg"></object>
+        <object class="rellax" data-rellax-speed="1" type="image/svg+xml" data="assets/product.svg"></object>
       </div>
     </div>
   </section>
   <section id="biz-dev-ops">
-    <div class="bg bg-bizdevops rellax" data-rellax-speed="3"></div>
-    <div class="right"><h2>BUSINESS, DEVELOPMENT &amp; OPERATIONS</h2>
+    <div class="bg rellax" data-rellax-speed="3" style="background-image: url('assets/bizdevops.svg');"></div>
+    <div class="right">
+      <h2>BUSINESS, DEVELOPMENT &amp; OPERATIONS</h2>
 
-<p>True BizDevOps culture is hard to nurture. This is the reason our team works best with startups in the beginning of their digital journey or companies ready for their digital transformation.</p>
+      <p>Cultivating a genuine BIZ/DEV/OPS culture is challenging. That's why our team excels at partnering with
+        startups at the outset of their journey.</p>
 
-<p>Working with your development teams, we can illustrate how the most important knowledge they need is not the technical skills, but the reason why those skills are needed.</p>
+      <p>By collaborating with your development teams, we demonstrate that the crucial knowledge they require extends
+        beyond mere technical skills—it encompasses understanding the purpose behind those skills.</p>
 
-<p>We start by building our customers CI/CD/CT (Continues Integration,  Continues Deployment, Continues Testing) pipelines and procedures based on conventions which enables the team to understand, build, test, deploy and maintain the software they create.</p>
+      <p>Our approach begins with establishing deployment and testing procedures grounded in standard practices. This
+        empowers your team to grasp, construct, test, deploy, and maintain the software they develop effectively.</p>
 
-<p>We focus on cloud deployments, bringing value from day one.</p>
-</div>
+      <p>Our emphasis is on cloud deployments, ensuring we deliver value from the very first day.</p>
+    </div>
   </section>
-  <section id="micro-services">
-    <div class="bg bg-micro1 rellax" data-rellax-speed="5"></div>
-    <div class="bg bg-micro2 rellax" data-rellax-speed="6"></div>
-    <div class="left"><h2>MICRO-SERVICES ARCHITECTURE</h2>
+  <section id="architecture">
+    <div class="bg rellax" data-rellax-speed="5" style="background-image: url('assets/arch1.svg');"></div>
+    <div class="bg rellax" data-rellax-speed="6" style="background-image: url('assets/arch2.svg');"></div>
+    <div class="left">
+      <h2>ARCHITECTURE</h2>
 
-<p>Modern solutions are complex, but they don’t need to be complicated.</p>
+      <p>Modern solutions can be complex without being unnecessarily complicated.</p>
 
-<p>Sofmon’s experience with micro-services architecture will help you design a solution that is simple to understand and easy to deploy.</p>
+      <p>At Sofmon, our expertise in service architecture enables you to craft solutions that are straightforward to
+        comprehend and deploy.</p>
 
-<p>The micro-services architecture is a direct result of the BizDevOps culture, where every business process is described, designed and implemented as separate micro-service.</p>
+      <p>Our approach to service architecture stems directly from the BIZ/DEV/OPS culture. In this model, every business
+        process is meticulously outlined, designed, and executed as an individual service.</p>
 
-<p>This modern architecture allows a small team to continue work on new features, altering existing services only if the corresponding business processes are changed.</p>
-</div>
+      <p>Such contemporary architecture permits a compact team to focus on developing new features, requiring
+        modifications to existing services only when there are changes in the corresponding business processes.</p>
+    </div>
   </section>
-  <section id="behavior-testing">
-    <div class="bg bg-test rellax" data-rellax-speed="2"></div>
-    <div class="center"><h2>AUTOMATED BEHAVIOUR TESTING</h2>
+  <section id="verification">
+    <div class="bg rellax" data-rellax-speed="2" style="background-image: url('assets/behave.svg');"></div>
+    <div class="center">
+      <h2>BEHAVIOUR VERIFICATION</h2>
 
-<p>Testing your code is important. Never the less it tests the code, not the business process it is meant to represent.</p>
+      <p>Testing your code is crucial; however, it evaluates the code itself, not the business process it aims to
+        embody.</p>
 
-<p>Sofmon can help you start testing the behaviour of your solution through convention and automation.</p>
+      <p>Sofmon facilitates the initiation of behavior testing for your solutions through standardization and
+        automation.</p>
 
-<p>Such automated behaviour testing is part of our CI/CD/CT pipelines from the start. It is the foundation of the BizDevOps culture that we nurture and one of our most prised products.</p>
+      <p>Such automated behavior testing is integral to our methodology from the outset, laying the groundwork for the
+        BIZ/DEV/OPS culture we foster and stands as one of our most valued offerings.</p>
 
-<p>Automated behaviour testing is the key for your continues deployment to production, multiple times, every day, from day one.</p>
-</div>
+      <p>Automated behavior testing is essential for enabling continuous deployment to production, allowing for multiple
+        releases every day, starting from day one.</p>
+    </div>
   </section>
-  <section id="experience">
-    <div class="bg bg-logos rellax" data-rellax-speed="10"></div>
-    <div class="right"><h2>EXPERIENCE &amp; INNOVATION</h2>
+  <section id="support">
+    <div class="bg rellax" data-rellax-speed="1" style="background-image: url('assets/support1.svg');"></div>
+    <div class="bg rellax" data-rellax-speed="5" style="background-image: url('assets/support2.svg');"></div>
+    <div class="bg rellax" data-rellax-speed="15" style="background-image: url('assets/support3.svg');"></div>
+    <div class="right">
+      <h2>SUPPORT</h2>
 
-<p>We draw our confidence on our experience with some of the leading companies in the world.</p>
+      <p>Our goal is to kickstart your company's operations within weeks, subsequently transitioning responsibilities to
+        your internal team.</p>
 
-<p>Even though we think we have “cracked it” today, we hope to be wrong in 5 years, as the tech world continues to evolve.</p>
+      <p>Nonetheless, we continue to offer support, assisting our clients in team development, addressing critical
+        business challenges, or even stepping in as an interim tech lead.</p>
 
-<p>Our innovative thinking will keep us, and our customers, prepared for the future.</p>
-</div>
+      <p>We are committed to providing support for temporary assignments, ensuring your needs are met.</p>
+    </div>
   </section>
   <section id="contact">
-    <div class="bg bg-contact rellax" data-rellax-speed="10"></div>
-    <div class="left"><h2>GET STARTED TODAY</h2>
+    <div class="bg rellax" data-rellax-speed="10" style="background-image: url('assets/contact.svg');"></div>
+    <div class="left">
+      <h2>CONTACT</h2>
 
-<p>Our team is located in The Netherlands and we are just a video call away.</p>
-
-<p>Say hello at <a href="mailto:hello@sofmon.com">hello@sofmon.com</a>.</p>
-</div>
+      <p>Our team is located in The Netherlands.</p>
+      <p>We are just a video call away.</p>
+      <p>Say hello at <a href="mailto:hello@sofmon.com">hello@sofmon.com</a>.</p>
+    </div>
   </section>
   <nav>
     <ul>
+      <li style="padding-top:8px; padding-bottom: 0;"><a href="#home"><img src="assets/sm.svg" width="32px"></a></li>
       <li><a href="#about">ABOUT</a></li>
       <li><a href="#product">PRODUCT</a></li>
-      <li><a href="#biz-dev-ops">BIZ-DEV-OPS</a></li>
-      <li><a href="#micro-services">MICRO-SERVICES</a></li>
-      <li><a href="#behavior-testing">BEHAVIOR TESTING</a></li>
-      <li><a href="#experience">EXPERIENCE</a></li>
+      <li><a href="#biz-dev-ops">BIZ/DEV/OPS</a></li>
+      <li><a href="#architecture">ARCHITECTURE</a></li>
+      <li><a href="#verification">VERIFICATION</a></li>
+      <li><a href="#support">SUPPORT</a></li>
       <li><a href="#contact">CONTACT</a></li>
     </ul>
   </nav>
@@ -118,4 +152,6 @@ Our team brings what your business should consider a commodity, so you can start
   </script>
 
 
-</body></html>
+</body>
+
+</html>

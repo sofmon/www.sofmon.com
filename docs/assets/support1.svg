@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3840 2160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,-12489.5)">
+        <g id="SUPPORT" transform="matrix(1,0,0,1,0,12489.5)">
+            <rect x="0" y="0" width="3840" height="2160" style="fill:none;"/>
+            <g transform="matrix(1.792,0,0,1.792,-15079.7,-17162.9)">
+                <g id="Layer1">
+                    <g>
+                        <g transform="matrix(1.19048,0,0,1.19048,3480.48,199.524)">
+                            <circle cx="4565" cy="8455" r="105" style="fill:rgb(18,18,18);"/>
+                        </g>
+                        <g transform="matrix(0.597372,0,0,1.39966,8622.4,9599.34)">
+                            <g transform="matrix(186,0,0,186,521.994,531.297)">
+                            </g>
+                            <text x="449.64px" y="531.297px" style="font-family:'Herculanum';font-size:186px;fill:white;">S</text>
+                        </g>
+                        <g transform="matrix(0.695447,0,0,0.447283,8527.6,10051.2)">
+                            <g transform="matrix(186,0,0,186,666.702,531.297)">
+                            </g>
+                            <text x="449.64px" y="531.297px" style="font-family:'Herculanum';font-size:186px;fill:white;">M</text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

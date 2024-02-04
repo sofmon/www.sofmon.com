@@ -5,7 +5,9 @@ html {
 body {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
-  color: #414141;
+  line-height: 1.5;
+  
+  color: #121212;
   background: #ffffff;
 }
 
@@ -14,6 +16,7 @@ h1 {
   padding: 0;
   margin: 0;
   font-size: 66px;
+  line-height: 1;
 }
 
 h2, h3, h4 {
@@ -61,7 +64,7 @@ section {
 }
 
 .product-image {
-  margin-top: 20px;
+  margin-top: 60px;
   position: relative;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
@@ -168,36 +171,7 @@ section {
     padding: 10px;
   }
   .bg {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center middle;
-    background-attachment: fixed;
-  }
-  .bg-micro1 {
-    background-image: url("m-micro1.svg");
-  }
-  .bg-micro2 {
-    background-image: url("m-micro2.svg");
-  }
-  .bg-test {
-    background-image: url("m-test.svg");
-  }
-  .bg-bizdevops {
-    background-image: url("m-bizdevops.svg");
-  }
-  .bg-about {
-    background-image: url("m-about.svg");
-  }
-  .bg-contact {
-    background-image: url("m-contact.svg");
-  }
-  .bg-logos {
-    background-image: url("m-logos.svg");
+    display: none;
   }
 }
 
