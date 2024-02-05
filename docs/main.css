@@ -118,55 +118,37 @@ section {
   background-attachment: fixed;
 }
 
-.bg-micro1 {
-  background-image: url("micro1.svg");
-}
-
-.bg-micro2 {
-  background-image: url("micro2.svg");
-}
-
-.bg-test {
-  background-image: url("test.svg");
-}
-
-.bg-bizdevops {
-  background-image: url("bizdevops.svg");
-}
-
-.bg-about {
-  background-image: url("about.svg");
-}
-
-.bg-contact {
-  background-image: url("contact.svg");
-}
-
-.bg-logos {
-  background-image: url("logos.svg");
-}
-
 @media only screen and (max-width: 800px) {
   nav {
     display: none;
   }
+  .arrow {
+    display: none;
+  }
+  section {
+    /* fallback for older browsers */
+    height: auto;
+    height: auto;
+    overflow: visible;
+    position: relative;
+  }
   .product-image {
     margin-top: 20px;
     position: relative;
-    left: 50%;
-    -webkit-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
-    width: 100vw;
-    height: 50vh;
+    left: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    width: auto;
+    height: auto;
   }
   .center, .right, .left {
     text-align: left;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 90vw;
+    position: relative;
+    left: 0;
+    top: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    width: auto;
     background: #FFFFFFCC;
     padding: 10px;
   }
