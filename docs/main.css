@@ -74,6 +74,17 @@ section {
   height: 70vh;
 }
 
+.start {
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  background: #FFFFFFAA;
+}
+
 .center {
   text-align: left;
   position: absolute;
@@ -151,7 +162,7 @@ footer {
     width: auto;
     height: auto;
   }
-  .center, .right, .left {
+  .start, .center, .right, .left {
     text-align: left;
     position: relative;
     left: 0;
