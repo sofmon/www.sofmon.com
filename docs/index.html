@@ -10,12 +10,36 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <style>
+    .vborder {
+        position: absolute;
+        background-color: white;
+    }
+    .vtop, .vbottom {
+        height: 3px;
+        left: 0;
+        right: 0;
+    }
+    .vleft, .vright {
+        width: 3px;
+        top: 0;
+        bottom: 0;
+    }
+    .vtop { top: -1px; }
+    .vbottom { bottom: -1px; }
+    .vleft { left: -1px; }
+    .vright { right: -1px; }
+  </style>
 </head>
 
 <body>
   <section id="home">
     <div class="start" style="text-align: center;">
       <div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/47afa7d8-3240-45ff-8194-a4feb483b802" loading="lazy" title="Synthesia video player - Intro" allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+      <div class="vborder vtop"></div>
+      <div class="vborder vbottom"></div>
+      <div class="vborder vleft"></div>
+      <div class="vborder vright"></div>
     </div>
     <div class="arrow arrow-first"></div>
     <div class="arrow arrow-second"></div>
