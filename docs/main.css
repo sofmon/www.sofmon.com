@@ -9,7 +9,7 @@ body {
   padding: 0;
   margin: 0;
   color: #121212;
-  background: #ffffff;
+  background: #f8f8f8;
 }
 
 h1 {
@@ -41,7 +41,7 @@ nav {
   top: 0px;
   white-space: nowrap;
   width: 100%;
-  background: #FFFFFFAA;
+  background: #f8f8f8AA;
 }
 
 nav ul {
@@ -82,7 +82,7 @@ section {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 70vw;
-  background: #FFFFFFAA;
+  background: #f8f8f8AA;
 }
 
 .center {
@@ -93,7 +93,7 @@ section {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 50vw;
-  background: #FFFFFFAA;
+  background: #f8f8f8AA;
 }
 
 .right {
@@ -104,7 +104,7 @@ section {
   -webkit-transform: translate(-10%, -50%);
   transform: translate(-10%, -50%);
   width: 40vw;
-  background: #FFFFFFAA;
+  background: #f8f8f8AA;
 }
 
 .left {
@@ -115,7 +115,7 @@ section {
   -webkit-transform: translate(-90%, -50%);
   transform: translate(-90%, -50%);
   width: 40vw;
-  background: #FFFFFFAA;
+  background: #f8f8f8AA;
 }
 
 .bg {
