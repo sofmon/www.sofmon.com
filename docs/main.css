@@ -1,7 +1,15 @@
 
+/*
+#001b2e
+#1d3f58
+#537692
+#b3cde4
+#eef3f9
+*/
+
 html {
   scroll-behavior: smooth;
-  background-color: #ffffff;
+  background-color: #001b2e;
   margin: 0;
   padding: 0;
 }
@@ -15,11 +23,6 @@ body {
   margin: 0;
   color: #001b2e;
   background-color: #eef3f9;
-  /* background-image: url('assets/sky-4.gif');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
 }
 
 nav {
@@ -31,9 +34,7 @@ nav {
   justify-content: space-evenly;
   backdrop-filter: blur(24px);
   font-size: 16px;
-  /* background-color: rgba(238, 243, 249, 0.7); */
   background-color: rgba(0, 27, 46, 0.7);
-  /* color: #eef3f9; */
 }
 
 nav a {
@@ -42,9 +43,9 @@ nav a {
 }
 
 ul {
-  list-style-type: disc; /* Removes bullet points */
-  padding: 0; /* Removes padding */
-  margin: 20px; /* Removes margin */
+  list-style-type: disc;
+  padding: 0;
+  margin: 20px;
 }
 
 section {
@@ -67,16 +68,11 @@ section h1 {
 
 section h2 {
   font-family: "Georgia", serif;
-  /* text-align: center; */
   width: 100%;
   font-size: 46px;
   padding: 0;
   padding-bottom: 2vw;
   margin: 0;
-  /* backdrop-filter: blur(24px); */
-  /*background-color: rgba(255, 255, 255, 0.2);*/
-  /* border-radius: 10px; */
-  /* border-bottom: 1px solid rgb(74, 79, 84); */
 }
 
 section h3 {
@@ -101,7 +97,6 @@ section > div > div {
   max-width: 800px;
   float:left;
   margin: 2vw;
-  /* backdrop-filter: blur(24px); */
   border-radius: 20px;
   padding: 20px;
 }
@@ -149,23 +144,6 @@ footer {
   text-decoration: none;
 }
 
-/* 
-.accent1:hover {
-  background-color: rgba(164, 105, 0, 0.8);
-}
-
-.accent2:hover {
-  background-color: rgba(233, 156, 180, 0.8);
-}
-
-.accent3:hover {
-  background-color: rgba(148, 173, 185, 0.8);
-}
-
-.accent4:hover {
-  background-color: rgba(0, 101, 104, 0.8);
-} */
-
 .hero {
   padding: 2vw;
   padding-top: 5vw;
@@ -173,9 +151,6 @@ footer {
 
 
 @media (max-width: 1000px) {
-  /* section {
-    padding: 0;
-  } */
   section > div {
     display: block;
     max-width: 100%;
