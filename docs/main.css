@@ -62,9 +62,8 @@ section {
 
 section h1 {
   font-family: "Georgia", serif;
-  text-align: center;
   width: 100%;
-  font-size: 56px;
+  font-size: 46px;
   padding: 0;
   padding-bottom: 2vw;
   margin: 0;
@@ -77,6 +76,7 @@ section h2 {
   padding: 0;
   padding-bottom: 2vw;
   margin: 0;
+  color: #1d3f58;
 }
 
 section h3 {
@@ -127,6 +127,10 @@ footer {
   color: #eef3f9;
 }
 
+.accent1 h2 {
+  color: #eef3f9;
+}
+
 .accent1 a {
   color: #eef3f9;
   text-decoration: none;
@@ -136,11 +140,15 @@ footer {
   text-shadow: 0 0 5px #eef3f9, 0 0 10px #eef3f9, 0 0 15px #eef3f9, 0 0 20px #eef3f9, 0 0 30px #eef3f9, 0 0 40px #eef3f9, 0 0 50px #eef3f9;
 }
 
+
 .accent2 {
   background-color: #1d3f58;
   color: #eef3f9;
 }
 
+.accent2 h2 {
+  color: #eef3f9;
+}
 
 .accent2 a {
   color: #eef3f9;
@@ -153,6 +161,10 @@ footer {
 
 .accent3 {
   background-color: #001b2e;
+  color: #eef3f9;
+}
+
+.accent3 h2 {
   color: #eef3f9;
 }
 
