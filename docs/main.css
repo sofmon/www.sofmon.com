@@ -42,6 +42,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  text-shadow: 0 0 5px #eef3f9, 0 0 10px #eef3f9, 0 0 15px #eef3f9, 0 0 20px #eef3f9, 0 0 30px #eef3f9, 0 0 40px #eef3f9, 0 0 50px #eef3f9;
+}
+
 ul {
   list-style-type: disc;
   padding: 0;
@@ -102,8 +106,12 @@ section > div > div {
 }
 
 a {
-  color: #eef3f9;
+  color: #001b2e;
   text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 5px #001b2e, 0 0 10px #001b2e, 0 0 15px #001b2e, 0 0 20px #001b2e, 0 0 30px #001b2e, 0 0 40px #001b2e, 0 0 50px #001b2e;
 }
 
 footer {
@@ -124,14 +132,23 @@ footer {
   text-decoration: none;
 }
 
+.accent1 a:hover {
+  text-shadow: 0 0 5px #eef3f9, 0 0 10px #eef3f9, 0 0 15px #eef3f9, 0 0 20px #eef3f9, 0 0 30px #eef3f9, 0 0 40px #eef3f9, 0 0 50px #eef3f9;
+}
+
 .accent2 {
   background-color: #1d3f58;
   color: #eef3f9;
 }
 
+
 .accent2 a {
   color: #eef3f9;
   text-decoration: none;
+}
+
+.accent2 a:hover {
+  text-shadow: 0 0 5px #eef3f9, 0 0 10px #eef3f9, 0 0 15px #eef3f9, 0 0 20px #eef3f9, 0 0 30px #eef3f9, 0 0 40px #eef3f9, 0 0 50px #eef3f9;
 }
 
 .accent3 {
@@ -142,6 +159,10 @@ footer {
 .accent3 a {
   color: #eef3f9;
   text-decoration: none;
+}
+
+.accent3 a:hover {
+  text-shadow: 0 0 5px #eef3f9, 0 0 10px #eef3f9, 0 0 15px #eef3f9, 0 0 20px #eef3f9, 0 0 30px #eef3f9, 0 0 40px #eef3f9, 0 0 50px #eef3f9;
 }
 
 .hero {
