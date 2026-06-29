@@ -163,7 +163,13 @@ a:hover { text-decoration: underline; }
 
 /* ── Portfolio ── */
 
-.portfolio { background: var(--sf-bg-app); }
+.portfolio {
+  background: var(--sf-bg-app);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .section-header {
   text-align: center;
