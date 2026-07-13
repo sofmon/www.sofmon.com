@@ -31,15 +31,49 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      var stored = null;
+      try { stored = localStorage.getItem('theme'); } catch (e) { }
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      var theme = (stored === 'dark' || stored === 'light') ? stored : (mq.matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+      if (!stored && mq.addEventListener) {
+        mq.addEventListener('change', function (e) {
+          document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+        });
+      }
+    })();
+  </script>
 </head>
 
 <body>
+
+  <!-- Theme toggle -->
+  <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch theme">
+    <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+    </svg>
+    <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="5" />
+      <line x1="12" y1="1" x2="12" y2="3" />
+      <line x1="12" y1="21" x2="12" y2="23" />
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+      <line x1="1" y1="12" x2="3" y2="12" />
+      <line x1="21" y1="12" x2="23" y2="12" />
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+    </svg>
+  </button>
 
   <!-- Hero -->
   <section class="hero">
     <div class="hero-inner">
       <p class="eyebrow">Software IP Holding</p>
-      <h1>Technology<br>as capital</h1>
+      <h1>Technology as capital</h1>
       <p>Sofmon acts as a technical co-founder,<br>building and operating software.</p>
       <div class="hero-actions">
         <a href="#portfolio" class="btn primary">Portfolio</a>
@@ -97,6 +131,25 @@
       &copy; Sofmon B.V. | KvK Number: 93115776
     </div>
   </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('theme-toggle');
+      function updateLabel() {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        var label = dark ? 'Switch to light theme' : 'Switch to dark theme';
+        btn.setAttribute('aria-label', label);
+        btn.setAttribute('title', label);
+      }
+      btn.addEventListener('click', function () {
+        var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) { }
+        updateLabel();
+      });
+      updateLabel();
+    })();
+  </script>
 
 </body>
 
